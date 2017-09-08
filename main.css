@@ -1,25 +1,65 @@
 
-* {
-  box-sizing: border-box;
-}
 
 body {
-  background: url(assets/webdeveloper.jpg) no-repeat center;
+  background: url(assets/webdeveloper.jpg) no-repeat center fixed;
   background-size: cover;
-  width: 100%;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  padding-top: 6rem;
 }
 
-.container-fluid{
-  width: 61rem;
-  max-width: 100vw;
+/*=========================================
+            Text style
+==========================================*/
+
+h1, h2, b, p {
+  letter-spacing: .03em;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2, b, p {
+  font-family: 'Raleway', sans-serif;
+}
+
+b, p{
+  font-size: 1.7rem;
+}
+
+p{
+  font-weight: 600;
+}
+
+/*==========================================
+             Main section
+==========================================*/
+
+.container {
+  margin-top: 5rem;
+  margin-bottom: 3.5rem;
   background-color: rgba(250, 250, 250, .3);
   border-radius: 30px;
+  box-shadow: 10px 10px 30px #F0F8FF;
+}
+
+
+@media (min-width: 768px){
+  
+  .container {
+    width: 60%;
+  }
   
 }
+
+@media (min-width: 1024px){
+  
+  .container {
+    width: 50%;
+  }
+}
+
+/*===========================================
+               Img box style
+============================================*/
 
 .top-center-box {
   text-align: center;
@@ -39,6 +79,87 @@ img:hover {
   transition: all 0.7s ease-in-out;
 }
 
+/*==========================================
+             Headline style
+==========================================*/
+
 .name-headline {
+  text-align: center; 
+  padding-bottom: 1rem;
+}
+
+.name-headline a {
+  color: black;
+  
+}
+/*==========================================
+            Content style
+===========================================*/
+
+.well {
+  background-color: rgba(250, 250, 250, .3);
+}
+
+/*=========================================
+             Panel style
+=========================================*/
+
+.panel {
+  background-color: rgba(250, 250, 250, .0);
   text-align: center;
 }
+
+/*=========================================
+             Icon style
+==========================================*/
+
+.text-default{
+  font-weight: 700;
+}
+
+
+.panel a{
+  color: black;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  transition: .5s all;
+}
+
+/*=========================================
+           Footer style
+==========================================*/
+
+footer{
+  width: 100%;
+  background-color: rgba(143, 188, 143, .2);
+  display: table;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+  line-height: 2;
+  
+}
+.footer li{
+  text-transform: capitalize;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+.footer a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: coral;
+  transition: .5s all;
+}
+
+
