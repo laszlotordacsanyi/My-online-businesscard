@@ -113,12 +113,12 @@ img:hover {
              Icon style
 ==========================================*/
 
-.text-default{
+.text-default {
   font-weight: 700;
 }
 
 
-.panel a{
+.panel a {
   color: black;
   margin-left: 1rem;
   text-decoration: none;
@@ -133,22 +133,21 @@ a:hover {
            Footer style
 ==========================================*/
 
-footer{
+footer {
+  padding: 1rem;
   width: 100%;
   background-color: rgba(143, 188, 143, .2);
-  display: table;
 }
 
 .footer {
   text-align: center;
   font-family: 'Muli', sans-serif;
-  font-size: 1em;
-  line-height: 2;
-  
+  line-height: 1.6;
 }
-.footer li{
+
+.footer p {
+  font-size: 1em;
   text-transform: capitalize;
-  font-weight: 600;
   color: antiquewhite;
 }
 
